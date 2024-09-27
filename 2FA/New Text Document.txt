@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2FA Setup</title>
+</head>
+<body>
+    <h1>Scan the QR Code</h1>
+    <img src="data:image/png;base64,{{ qr_code }}" alt="QR Code" />
+
+    <p>Alternatively, you can use the following URI:</p>
+    <p>{{ provisioning_uri }}</p>
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
